@@ -1,0 +1,19 @@
+<nav>
+    {{ $list := (.Site.Menus.main) }}
+    {{ $len := (len $list) }}
+    <ul>
+    🏠
+        {{ range  $element := .Site.Menus.main }}
+        <li>
+        <a class="nav-link" href="{{ .URL }}">
+        {{ $text := print .Name | safeHTML }}
+        {{ $text }}
+        </li>
+
+        {{ if ne .Weight $len }}
+        <span class="accent">|</span>
+        {{ end }}
+        </a>
+        {{ end }}
+    </ul>
+</nav>

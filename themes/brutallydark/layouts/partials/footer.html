@@ -1,0 +1,20 @@
+<footer>
+        <ul>
+            <li><span id="email"> david [at] davido [dot] io</span></li>
+            <span class="accent">|</span>
+            {{ $list := (.Site.Menus.footer) }}
+            {{ $len := (len $list) }}
+            {{ range  $element := .Site.Menus.footer}}
+            <li>
+                <a class="nav-link" href="{{ .URL }}">
+                {{ $text := print .Name | safeHTML }}
+                {{ $text }}
+                </a>
+            </li>
+        
+            {{ if ne .Weight ($len) }}
+            <span class="accent">|</span>
+            {{ end }}
+            {{ end }}
+        </ul>
+</footer>

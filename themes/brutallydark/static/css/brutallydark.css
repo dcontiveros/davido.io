@@ -1,0 +1,103 @@
+body {
+    background-color: #2a2e36;
+    color: #ece8e7;
+    margin: 60px auto;
+    width: 70%;
+}
+    
+nav  {
+    font-size: 1.1em;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: .4em;
+}
+
+nav a {
+    font-family: "Cabin", sans-serif;
+    color: #ece8e7;
+    display: inline-block;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+li.pipe {
+    font-size: 1.15em;
+    color: #999;
+    list-style: none;
+    display: inline;
+}
+
+
+#timestamp {
+    font-size: .7em;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+#email{
+    font-size: 0.9em;
+    font-family: 'Source Code Pro', monospace;
+}
+
+a.title {
+    font-size: 1.1em;
+    color: #999;
+}
+
+#content {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 0.95em;
+}
+
+
+span.accent{
+    font-size: 1.15em;
+    color: #999;
+    margin-right: 0.2em;
+}
+
+footer {
+    font-family: "Cabin", sans-serif;
+    border-top: 1px solid #d5d5d5;
+}
+
+footer ul {
+    padding: 0px;
+    list-style: none;
+    margin-top: .5em;
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+    margin-right: .4em;
+}
+
+footer a {
+    font-family: "Cabin", sans-serif;
+    color: #ece8e7;
+    display: inline-block;
+    margin-left: 0.4em;
+}
+
+#content a {
+    color: #999;
+}
+
+#notfound{
+    font-family: 'Source Code Pro', monospace;
+}
+
+#post_title{
+    font-size: 1.5em;
+    text-decoration: underline;
+}

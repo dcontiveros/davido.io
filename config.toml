@@ -1,0 +1,38 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'davido.io'
+theme = 'brutallydark'
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "About Me"
+    url = "/about/"
+    weight = 3
+  [[menu.footer]]
+    name = "Github"
+    url = "https://github.com/dcontiveros"
+    weight = 1
+  [[menu.footer]]
+    name = "Gitlab"
+    url = "https://gitlab.com/dcontiveros"
+    weight = 2
+  [[menu.footer]]
+    name = "Instagram"
+    url = "https://instagram.com/dcontiveros_irl"
+    weight = 3
+  [[menu.footer]]
+    name = "Mastodon"
+    url = "https://hachyderm.io/@dcontiveros"
+    weight = 4
+  [[menu.footer]]
+    name = "Twitter"
+    weight = 5
+    url = "https://twitter.com/dcontiveros"
