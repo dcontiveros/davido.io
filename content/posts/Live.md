@@ -1,7 +1,6 @@
 ---
 title: "Live"
 date: 2023-01-10T12:29:02-05:00
-draft: true
 ---
 
 I have ensured that the new version of the site is now accessible and https via Let'sEncrypt is up.
