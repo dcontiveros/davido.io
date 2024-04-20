@@ -1,0 +1,5 @@
+# ignore FS entries
+.DS_Store
+
+# ignore directories
+public

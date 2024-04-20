@@ -2,7 +2,8 @@ baseURL = 'https://davido.io/'
 languageCode = 'en-us'
 title = 'davido.io'
 theme = 'brutallydark'
-
+relativeURLs = true
+uglyURLs = true
 [menu]
   [[menu.main]]
     name = "Home"
