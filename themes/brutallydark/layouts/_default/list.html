@@ -1,15 +1,20 @@
 {{ define "main" }}
 
+
 <p>
 {{ range .Pages.ByPublishDate.Reverse }}
     <a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>
     <br />
     <span id="timestamp">
-    {{ .PublishDate.Format "January 2, 2006" }} 
+    {{ .PublishDate.Format "January 2, 2006" }}
     </span>
     <br />
     <br />
 {{ end }}
+</p>
+
+<p>
+{{ readFile "/static/rss.svg" | safeHTML }}
 </p>
 
 {{ end }}
