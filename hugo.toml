@@ -4,6 +4,10 @@ title = 'davido.io'
 theme = 'brutallydark'
 pygmentsCodeFences = true   # Enable triple backtick 'code fence' markdown
 
+[params]
+  [params.author]
+    email = 'david@davido.io'
+    name = 'David Ontiveros'
 
 [markup]
   [markup.highlight]
