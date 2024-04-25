@@ -2,6 +2,25 @@ baseURL = 'https://davido.io/'
 languageCode = 'en-us'
 title = 'davido.io'
 theme = 'brutallydark'
+pygmentsCodeFences = true   # Enable triple backtick 'code fence' markdown
+
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    noHl = false
+    style = 'monokai'
+    tabWidth = 4
+
 [menu]
   [[menu.main]]
     name = "Home"

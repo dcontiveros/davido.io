@@ -4,7 +4,14 @@
     <body>
         {{- partial "header.html" . -}}
         <div id="content">
-            <span id="post_title">{{ .Title}} </span>
+            <div id="title_wrapper">
+                <div id="title">
+                    <span id="post_title">{{ .Title}} </span>
+                </div>
+                <div id="published_date_section">
+                    <span id="post_date">{{ .PublishDate.Format "January 2, 2006" }}</span>
+                </div>
+            </div>
             {{ .Content }}
         </div>
         {{- partial "footer.html" . -}}

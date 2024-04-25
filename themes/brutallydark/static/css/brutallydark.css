@@ -1,11 +1,11 @@
 body {
-    background-color: #2a2e36;
+    background-color: #1a1a1a;
     color: #ece8e7;
     margin: 60px auto;
     width: 70%;
 }
-    
-nav  {
+
+nav {
     font-size: 1.1em;
 }
 
@@ -16,17 +16,13 @@ nav ul {
 nav li {
     list-style: none;
     display: inline;
-    margin-right: .4em;
+    margin-right: 0.4em;
 }
 
 nav a {
     font-family: "Cabin", sans-serif;
     color: #ece8e7;
     display: inline-block;
-}
-
-p {
-    font-size: 1.25em;
 }
 
 li.pipe {
@@ -36,16 +32,14 @@ li.pipe {
     display: inline;
 }
 
-
 #timestamp {
-    font-size: .7em;
-    font-family: 'Source Code Pro', monospace;
+    font-size: 0.7em;
+    font-family: "Source Code Pro", monospace;
 }
 
-
-#email{
+#email {
     font-size: 0.9em;
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Source Code Pro", monospace;
 }
 
 a.title {
@@ -54,15 +48,13 @@ a.title {
 }
 
 #content {
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 0.95em;
 }
 
-
-span.accent{
+span.accent {
     font-size: 1.15em;
     color: #999;
     margin-right: 0.2em;
+    text-decoration: none;
 }
 
 footer {
@@ -73,13 +65,13 @@ footer {
 footer ul {
     padding: 0px;
     list-style: none;
-    margin-top: .5em;
+    margin-top: 0.5em;
 }
 
 footer li {
     list-style: none;
     display: inline;
-    margin-right: .4em;
+    margin-right: 0.4em;
 }
 
 footer a {
@@ -93,11 +85,52 @@ footer a {
     color: #999;
 }
 
-#notfound{
-    font-family: 'Source Code Pro', monospace;
+#notfound {
+    font-family: "Source Code Pro", monospace;
 }
 
-#post_title{
-    font-size: 1.5em;
-    text-decoration: underline;
+#post_title {
+    font-family: "Inter", sans-serif;
+    font-size: 1.75em;
+}
+
+#published_date_section {
+    padding-bottom: 5px;
+}
+
+#post_date {
+    font-size: 0.9em;
+    font-family: "Source Code Pro", monospace;
+}
+
+code {
+    font-family: "Source Code Pro";
+}
+
+blockquote {
+    margin-left: 25px;
+    padding-left: 15px;
+    border-left: 5px solid #ccc;
+}
+
+p,
+ol {
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        avenir next,
+        avenir,
+        segoe ui,
+        helvetica neue,
+        helvetica,
+        Ubuntu,
+        roboto,
+        noto,
+        arial,
+        sans-serif;
+    line-height: 1.2em;
+}
+
+li {
+    padding-left: 0.15em;
 }
