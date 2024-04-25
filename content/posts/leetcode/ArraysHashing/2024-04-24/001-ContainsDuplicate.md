@@ -1,7 +1,6 @@
 ---
 title: "Contains Duplicate - 1/150"
 date: 2024-04-24T14:41:14-04:00
-draft: true
 ---
 
 What seems like a trivial problem to solve actually led me down a blackhole of Python efficiencies. The problem states:
