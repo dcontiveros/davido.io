@@ -3,6 +3,8 @@ title: "Contains Duplicate - 1/150"
 date: 2024-04-24T14:41:14-04:00
 ---
 
+This is entry `1/150` in the NeetCode150 Challenge.
+
 What seems like a trivial problem to solve actually led me down a blackhole of Python efficiencies. The problem states:
 
 > Given an integer array `nums`, return true if any value appears at least twice in the array, and return false if every element is distinct.
