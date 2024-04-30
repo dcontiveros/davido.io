@@ -2,5 +2,4 @@
 
 All configs and assets for the personal site of David Ontiveros: https://davido.io
 
-Feel free to reach out if you see any errors in the information on this page or
-open an issue.
+I don't take donations but if antying on here helps, reach out and send ☕ !
