@@ -134,3 +134,20 @@ ol {
 li {
     padding-left: 0.15em;
 }
+
+p#license {
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        avenir next,
+        avenir,
+        segoe ui,
+        helvetica neue,
+        helvetica,
+        Ubuntu,
+        roboto,
+        noto,
+        arial,
+        sans-serif;
+    font-size: 0.75em;
+}
