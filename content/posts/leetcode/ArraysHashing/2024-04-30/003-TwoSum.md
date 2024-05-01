@@ -110,11 +110,11 @@ Beats 6.36% of users with Python3
 
 I had an amazing SVG picture to showcase detailing the algo with the two pointer approach, but deleted it. I ended up learning about the Goat library in Hugo so expect the blog to have "prettier" ASCII diagrams.
 
-I stream these Neetcode problems on Twitch and have the recordings on YouTube. You can watch me attempt this module or follow me on any of the links below.
+Unfortunately, I forgot to record the Two Sum problem attempt. Reflecting upon this the format of this challenge will be one video, per problem. This allows me to link the video to the blog post with max runtime of one hour for the videos.
+
+Below are my profile links since I don't have the recording of this module. Enjoy!
 
 👇
-
-[Module](https://youtu.be/rJ2NsNSexl0?si=AisiqXmq_Om49dQF)
 
 [Twitch](https://twitch.tv/Mexpat911)
 
