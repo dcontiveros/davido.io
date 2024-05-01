@@ -9,7 +9,7 @@ Ah the Two Sum problem. A problem classified as "easy" that seems to be the firs
 
 The problem statement is as follows:
 
-> Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+> Given an array of integers `nums` and an integer target, return indices of the two numbers such that they add up to target.
 >
 > You may assume that each input would have exactly one solution, and you may not use the same element twice.
 >
@@ -86,7 +86,7 @@ Simple right? 😐
 
 The reason this works is that it the program is inserting key value pairs where the key is some difference taken from target at the number evaluated. If we happen to encounter a number that is already in our hashmap (which would correspond to an existing key), then we know that the current element and the value at that key in our hashmap would make the target. It's much more simple when you just add the numbers up.
 
-I feel the two pointer solution is much easier to grasp, but unfortuanately that is not the most efficient algo. The trick is knowing that the delta value of the target minus the current elemnt will always be used in a future lookup. It is a neat trick which will most likely come into play when we get the Three Sum problem.
+I feel the two pointer solution is much easier to grasp, but unfortunately that is not the most efficient algo. The trick is knowing that the delta value of the target minus the current element will always be used in a future lookup. It is a neat trick which will most likely come into play when we get the Three Sum problem.
 
 There was a massive difference in both of these implementations. Here are the stats:
 
@@ -110,9 +110,9 @@ Beats 6.36% of users with Python3
 
 I had an amazing SVG picture to showcase detailing the algo with the two pointer approach, but deleted it. I ended up learning about the Goat library in Hugo so expect the blog to have "prettier" ASCII diagrams.
 
-Unfortunately, I forgot to record the Two Sum problem attempt. Reflecting upon this the format of this challenge will be one video, per problem. This allows me to link the video to the blog post with max runtime of one hour for the videos.
+Unfortunately, I forgot to record the Two Sum problem attempt. Reflecting upon this the format of this challenge will be one video per problem. This allows me to link the video to the blog post with max runtime of one hour.
 
-Below are my profile links since I don't have the recording of this module. Enjoy!
+Enjoy my content at the below links.
 
 👇
 
