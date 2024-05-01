@@ -77,7 +77,7 @@ Second iteration:
 - `if 2 in hash_map` condition fails.
 - `else` is entered. We insert a `key:value` pair into our `hash_map` that looks like `4:1`.
 
-- Third iteration:
+Third iteration:
 
 - `i == 2`
 - `if 4 in hash_map` condition passes (lookup happens on key). We return a list composed of the current value of `i`(`2`) and the value that corresponds to the key `4` which in this case is `1`.

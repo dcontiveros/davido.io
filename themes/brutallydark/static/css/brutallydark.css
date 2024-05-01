@@ -151,3 +151,19 @@ p#license {
         sans-serif;
     font-size: 0.75em;
 }
+
+ul li {
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        avenir next,
+        avenir,
+        segoe ui,
+        helvetica neue,
+        helvetica,
+        Ubuntu,
+        roboto,
+        noto,
+        arial,
+        sans-serif;
+}

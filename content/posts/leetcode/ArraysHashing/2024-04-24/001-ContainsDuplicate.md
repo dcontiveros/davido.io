@@ -82,7 +82,7 @@ I stream these Neetcode problems on Twitch and have the recordings on YouTube. Y
 
 👇
 
-[Module](https://youtu.be/rJ2NsNSexl0?si=AisiqXmq_Om49dQF)
+[Day 1 - Contains Duplicate](https://youtu.be/rJ2NsNSexl0?si=AisiqXmq_Om49dQF)
 
 [Twitch](https://twitch.tv/Mexpat911)
 
