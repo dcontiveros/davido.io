@@ -1,7 +1,6 @@
 ---
 title: "Two Sum 3/150"
 date: 2024-04-30T13:55:40-04:00
-type: twosum
 ---
 
 This is entry `3/150` in the NeetCode150 Challenge.
@@ -87,4 +86,36 @@ Simple right? 😐
 
 The reason this works is that it the program is inserting key value pairs where the key is some difference taken from target at the number evaluated. If we happen to encounter a number that is already in our hashmap (which would correspond to an existing key), then we know that the current element and the value at that key in our hashmap would make the target. It's much more simple when you just add the numbers up.
 
-I feel the two pointer solution is much easier to grasp, but unfortuanately that is not the most efficient algo.
+I feel the two pointer solution is much easier to grasp, but unfortuanately that is not the most efficient algo. The trick is knowing that the delta value of the target minus the current elemnt will always be used in a future lookup. It is a neat trick which will most likely come into play when we get the Three Sum problem.
+
+There was a massive difference in both of these implementations. Here are the stats:
+
+```bash
+# naive time
+2070ms
+Beats 9.59% of users with Python3
+
+# naive space
+17.39MB
+Beats 84.27% of users with Python3
+
+# optimized time
+45ms
+Beats 98.78% of users with Python3
+
+# optimized space
+18.05MB
+Beats 6.36% of users with Python3
+```
+
+I had an amazing SVG picture to showcase detailing the algo with the two pointer approach, but deleted it. I ended up learning about the Goat library in Hugo so expect the blog to have "prettier" ASCII diagrams.
+
+I stream these Neetcode problems on Twitch and have the recordings on YouTube. You can watch me attempt this module or follow me on any of the links below.
+
+👇
+
+[Module](https://youtu.be/rJ2NsNSexl0?si=AisiqXmq_Om49dQF)
+
+[Twitch](https://twitch.tv/Mexpat911)
+
+[YouTube](https://www.youtube.com/@mexpat911)
