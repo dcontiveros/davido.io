@@ -55,7 +55,7 @@ I stream these Neetcode problems on Twitch and have the recordings on YouTube. Y
 
 👇
 
-[Day 5 - Contains Duplicate](https://youtu.be/sp2OIW76w_s)
+[Neetcode 5/150 - Contains Duplicate](https://youtu.be/sp2OIW76w_s)
 
 [Twitch](https://twitch.tv/Mexpat911)
 

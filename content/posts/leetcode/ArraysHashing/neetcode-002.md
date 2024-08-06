@@ -136,7 +136,7 @@ I stream these Neetcode problems on Twitch and have the recordings on YouTube. Y
 
 👇
 
-[Day 1 - Valid Anagram](https://youtu.be/rJ2NsNSexl0?si=AisiqXmq_Om49dQF)
+[Neetcode 2/150 - Valid Anagram](https://youtu.be/rJ2NsNSexl0?si=AisiqXmq_Om49dQF)
 
 [Twitch](https://twitch.tv/Mexpat911)
 

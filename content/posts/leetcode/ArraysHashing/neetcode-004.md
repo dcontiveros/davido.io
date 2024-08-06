@@ -164,7 +164,7 @@ I stream these Neetcode problems on Twitch and have the recordings on YouTube. Y
 
 👇
 
-[Group Anagrams](https://youtu.be/jcrVG3lmbfQ?si=sjOnptwpBpKNubkl)
+[Neetcode 4/150 - Group Anagrams](https://youtu.be/jcrVG3lmbfQ?si=sjOnptwpBpKNubkl)
 
 [Twitch](https://twitch.tv/Mexpat911)
 
