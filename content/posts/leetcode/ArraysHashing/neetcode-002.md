@@ -1,5 +1,5 @@
 ---
-title: "Valid Anagram - 2/150"
+title: "Neetcode 2/150 -  Valid Anagram"
 date: 2024-04-29T12:35:14-04:00
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Group Anagrams 4/150"
+title: "Neetcode 4/150 - Group Anagrams"
 date: 2024-05-01T10:15:29-04:00
 ---
 

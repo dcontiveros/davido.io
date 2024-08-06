@@ -1,5 +1,5 @@
 ---
-title: "Contains Duplicate - 1/150"
+title: "Neetcode 1/150 - Contains Duplicate"
 date: 2024-04-24T14:41:14-04:00
 ---
 

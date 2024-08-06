@@ -1,5 +1,5 @@
 ---
-title: "Two Sum 3/150"
+title: "Neetcode 3/150 - Two Sum"
 date: 2024-04-30T13:55:40-04:00
 ---
 
