@@ -9,7 +9,7 @@ This is entry `7/150` in the NeetCode150 Challenge.
 
 The associated video is here: 
 
-[Neetcode 7/150 - Product of Array Except Self](https://youtu.be/7iZ7JwjMGT8)
+[Software Development | Neetcode 7/150 - Product of Array Except Self](https://youtu.be/7iZ7JwjMGT8)
 
 ### Problem
 
@@ -35,11 +35,9 @@ The trick to this problem is utilizing a prefix/postfix sum approach. Prior to t
 
 After viewing my video, I was surprised I didn't think about using a sliding window technique. Apparently this approach doesn't work for this problem. Therefore, I need to be able to identify when to use each of these methods.
 
-Either way, subarray type problems appear to come up quite frequently (substrings as well). I need to start compiling the commonly used algorithms for each ADT. This brings us to, the question:
+Either way, subarray type problems appear to come up quite frequently (substrings as well). I need to start compiling the commonly used algorithms for each ADT. This brings us to the actual reason for failure.
 
-> Why did I not get this?
-
-### Postmortem
+### Summary
 
 I failed this module due to the following reasons:
 
@@ -49,8 +47,6 @@ I failed this module due to the following reasons:
 
 
 ### Action items
-
-From the above, I need to do the following:
 
 1. Gather different strats for the Array/Hashmaps data types.
 2. Get an algorithm on paper first before coding.
