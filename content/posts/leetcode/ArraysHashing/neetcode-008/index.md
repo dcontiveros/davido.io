@@ -1,6 +1,6 @@
 ---
 title: "Neetcode 8/150 - Valid Sudoku"
-date: 2024-08-06T17:09:01-04:00
+date: 2024-08-10T17:09:01-04:00
 ---
 
 ### Intro
