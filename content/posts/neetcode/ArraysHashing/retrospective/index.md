@@ -1,7 +1,6 @@
 ---
 title: "Retrospective Thoughts on Arrays and Hashing"
 date: 2024-08-14T22:31:35-04:00
-draft: "True"
 ---
 
 ### Intro
