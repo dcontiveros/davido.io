@@ -133,6 +133,7 @@ ol {
 
 li {
     padding-left: 0.15em;
+    padding-top: 8px;
 }
 
 p#license {
@@ -166,4 +167,40 @@ ul li {
         noto,
         arial,
         sans-serif;
+}
+
+/* Table Test */
+table {
+    width: max-content; /* Ensure the table width fits the content */
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    color: black; /* Set text color to black */
+    font-family: "Source Code Pro", monospace;
+}
+
+th {
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    text-align: center; /* Center the header text */
+    white-space: nowrap; /* Prevent header text from wrapping */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+    background-color: #e0e0e0;
+}
+
+td,
+th {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center; /* Center the content text */
+}
+
+td {
+    white-space: nowrap; /* Prevent content from wrapping */
 }
