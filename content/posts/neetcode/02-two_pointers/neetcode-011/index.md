@@ -1,7 +1,6 @@
 ---
 title: "Neetcode 11/150 - Two Sum II - Input Array Is Sorted"
 date: 2024-10-08T09:51:27-04:00
-draft: true
 ---
 
 ### Intro
@@ -10,7 +9,7 @@ This is entry `11/150` in the NeetCode150 Challenge.
 
 The associated video is here: 
 
-[Software Development | Neetcode Challenge 11/150 - Two Sum II - Input Array Is Sorted](URL)
+[Software Development | Neetcode Challenge 11/150 - Two Sum II - Input Array Is Sorted](https://youtu.be/oQzlcwO5c9s)
 
 ### Status
 
@@ -22,7 +21,7 @@ The associated video is here:
 
 Here is the link to the Leetcode problem:
 
-[Leetcode XXX](URL)
+[Leetcode 167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
 
 This problem deals with the usual Two Sum problem, but with a twist this time. Using the two pointers algorithm is **NOT** the twist.
  
