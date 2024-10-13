@@ -1,7 +1,6 @@
 ---
 title: "Neetcode 12/150 - 3Sum"
 date: 2024-10-13T19:01:41-04:00
-draft: true
 ---
 
 ### Intro
