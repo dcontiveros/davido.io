@@ -1,5 +1,5 @@
 body {
-    background-color: #1a1a1a;
+    background-color: #262626;
     color: #ece8e7;
     margin: 60px auto;
     width: 70%;
@@ -90,7 +90,7 @@ footer a {
 }
 
 #post_title {
-    font-family: "Inter", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 1.75em;
 }
 
@@ -110,7 +110,11 @@ code {
 blockquote {
     margin-left: 25px;
     padding-left: 15px;
+    padding-top: 1px;
+    padding-bottom: 2px;
     border-left: 5px solid #ccc;
+    background-color: black;
+    max-width: 75%;
 }
 
 p,
@@ -203,4 +207,11 @@ th {
 
 td {
     white-space: nowrap; /* Prevent content from wrapping */
+}
+
+h3 {
+    font-family: "Archivo", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    letter-spacing: 0.05em;
 }
