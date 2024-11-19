@@ -1,6 +1,8 @@
 ---
 title: "Neetcode 1/150 - Contains Duplicate"
 date: 2024-04-24T14:41:14-04:00
+categories: ["neetcode"]
+tags: ["leetcode"]
 ---
 
 This is entry `1/150` in the NeetCode150 Challenge.

@@ -210,7 +210,17 @@ td {
 
 h3 {
     font-family: "Archivo", sans-serif;
-    text-transform: uppercase;
     font-size: 1.4em;
     letter-spacing: 0.05em;
+}
+
+.pagination{
+    font-size: 2em;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.pagination li {
+    padding: 10px;
 }

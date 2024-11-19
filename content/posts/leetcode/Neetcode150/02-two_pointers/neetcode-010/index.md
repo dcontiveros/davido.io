@@ -1,13 +1,15 @@
 ---
 title: "Neetcode 10/150 - Valid Palindrome"
 date: 2024-10-08T09:23:17-04:00
+categories: ["neetcode"]
+tags: ["leetcode"]
 ---
 
 ### Intro
 
 This is entry `10/150` in the NeetCode150 Challenge.
 
-The associated video is here: 
+The associated video is here:
 
 [Software Development | Neetcode Challenge 10/150 - Valid Palindrome](https://youtu.be/PkuijMeS6-Y)
 
@@ -33,7 +35,7 @@ It is interesting that some regex libraries may take other interpretations of sh
 
 ### Summary
 
-We solved all test cases but took more than the time allocation due to regex shuffling. 
+We solved all test cases but took more than the time allocation due to regex shuffling.
 
 ### Action items
 1. Practice Regex in Python.
@@ -45,7 +47,7 @@ Before attempting any two pointers problems, I took some boilerplate code from C
 
 > Give me two sorted integer lists so I can practice two pointers approach
 
-I should have just used [Random.org](https://random.org) to generate the numbers but alas, I did not think of that in the moment. I stated I would do any prerequisite upskilling prior to attempting a module in the Arrays and Hashing retrospective post. Actually doing the practice has solidified this particular algorithm in my head. 
+I should have just used [Random.org](https://random.org) to generate the numbers but alas, I did not think of that in the moment. I stated I would do any prerequisite upskilling prior to attempting a module in the Arrays and Hashing retrospective post. Actually doing the practice has solidified this particular algorithm in my head.
 
 It's two pointers(☝️☝️) though, so I don't feel too much of a confidence boost. We will see how the other exercises go.
 

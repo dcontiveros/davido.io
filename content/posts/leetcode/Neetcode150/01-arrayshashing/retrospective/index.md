@@ -1,6 +1,8 @@
 ---
 title: "Retrospective Thoughts on Arrays and Hashing"
 date: 2024-08-14T22:31:35-04:00
+categories: ["neetcode"]
+tags: ["leetcode"]
 ---
 
 ### Intro
@@ -31,7 +33,7 @@ There are a few things I need to review. Here are my main weaknesses I've identi
 
 1. I need to know time complexities of certain operations performed by standard libraries.
 2. I am trash at simple coding. I have to look stuff up constantly, be it syntax or insertions. I need to git gud.
-3. I need to alternate between doing these when I am well rested and when I am tired. 
+3. I need to alternate between doing these when I am well rested and when I am tired.
 
 Originally I stated I would do an entire section of Neetcode and then pivot certain aspects of this challenge if I needed to. I had no idea it would honestly be this difficult for me.
 
@@ -47,7 +49,7 @@ I thought this would be much easier, but I was dead wrong. I like to troll/talk 
 
 If I had to make an analogy for this, it would be similar to doing fundamental exercises and then combining them to optimize your performance in a sport. You practice each individual component over and over and then combine alternate movements. It's the same, but just a little different.
 
-{{< giphy 
+{{< giphy
 "v1.Y2lkPTc5MGI3NjExM2pndmh1ZjA0anR3YXgyaHRwMGZ5ZmM4cmljYndtcW4yZ2Y1dnRtayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9KViTXjQtHCuJPSE"
 >}}
 

@@ -1,6 +1,8 @@
 ---
 title: "Neetcode 14/150 - Trapping Rain Water"
 date: 2024-10-14T18:12:15-04:00
+categories: ["neetcode"]
+tags: ["leetcode"]
 ---
 
 
@@ -8,7 +10,7 @@ date: 2024-10-14T18:12:15-04:00
 
 This is entry `14/150` in the NeetCode150 Challenge.
 
-The associated video is here: 
+The associated video is here:
 
 [Software Development | Neetcode Challenge 14/150 - Trapping Rain Water](https://youtu.be/yBTzdr5i-6Y)
 

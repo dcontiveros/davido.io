@@ -1,6 +1,8 @@
 ---
 title: "Neetcode 3/150 - Two Sum"
 date: 2024-04-30T13:55:40-04:00
+categories: ["neetcode"]
+tags: ["leetcode"]
 ---
 
 This is entry `3/150` in the NeetCode150 Challenge.

@@ -1,0 +1,11 @@
+{{ define "main" }}
+  {{ $pages := .Pages.ByPublishDate }}
+  {{ range (.Paginate $pages 10).Pages }}
+  <p>
+  <a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  <br />
+  <span id="timestamp"> {{ .PublishDate.Format "January 2, 2006" }} </span>
+  </p>
+  {{ end }}
+  {{ template "_internal/pagination.html" . }}
+{{ end }}

@@ -1,13 +1,15 @@
 ---
 title: "Neetcode 13/150 - Container With Most Water"
 date: 2024-10-14T09:24:07-04:00
+categories: ["neetcode"]
+tags: ["leetcode"]
 ---
 
 ### Intro
 
 This is entry `13/150` in the NeetCode150 Challenge.
 
-The associated video is here: 
+The associated video is here:
 
 [Software Development | Neetcode Challenge 13/150 - Container With Most Water" ](https://youtu.be/V8zPzv0gvYA)
 
@@ -41,7 +43,7 @@ We managed to solve this problem with minimal edits to get optimal. However, we 
 
 ### Final thoughts
 
-It is interesting that the actual setup of the pointers is no longer the issue I am running into. I am constantly seeing that the code is starting to become the means to the solution vs. the code BEING the solution. I know that sounds like a ridiculous statement, but after rewatching the video, I realize that I have about 80% of the solution. 
+It is interesting that the actual setup of the pointers is no longer the issue I am running into. I am constantly seeing that the code is starting to become the means to the solution vs. the code BEING the solution. I know that sounds like a ridiculous statement, but after rewatching the video, I realize that I have about 80% of the solution.
 
 I am also finding it much simpler to think in terms of optimal solutions.
 

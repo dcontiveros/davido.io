@@ -1,13 +1,15 @@
 ---
 title: "Neetcode 4/150 - Group Anagrams"
 date: 2024-05-01T10:15:29-04:00
+categories: ["neetcode"]
+tags: ["leetcode"]
 ---
 
 This is entry `4/150` in the NeetCode150 Challenge.
 
 This was the first problem where I did not reach a solution at all. The problem states:
 
-> Given an array of strings strs, group the anagrams together. You can return the answer in any order.  
+> Given an array of strings strs, group the anagrams together. You can return the answer in any order.
 > An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
 
 Originally my thinking was as follows:

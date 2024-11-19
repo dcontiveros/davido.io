@@ -1,27 +1,29 @@
 ---
 title: "Neetcode 9/150 - Longest Consecutive Sequence"
 date: 2024-08-14T16:37:54-04:00
+categories: ["neetcode"]
+tags: ["leetcode"]
 ---
 
 ### Intro
 
 This is entry `9/150` in the NeetCode150 Challenge.
 
-The associated video is here: 
+The associated video is here:
 
 [Software Development | Neetcode Challenge 9/150 - Longest Consecutive Sequence](https://youtu.be/LEMfTiYWNl0)
 
 ### Problem
 
 > Given an unsorted array of integers `nums`, return the length of the longest consecutive elements sequence.
-> 
+>
 > You must write an algorithm that runs in `O(n)` time.
 
-Sounds easy right? Why is this a medium? 
+Sounds easy right? Why is this a medium?
 
 ### Root Cause Analysis
 
-After analyzing the recording of my performance, I can say confidently this was one of those problems that I should have thought about more logically, rather than going for naive. We managed to get `69/76` test cases before we called it quits, which is still pretty decent without getting the optimized solution. 
+After analyzing the recording of my performance, I can say confidently this was one of those problems that I should have thought about more logically, rather than going for naive. We managed to get `69/76` test cases before we called it quits, which is still pretty decent without getting the optimized solution.
 
 It seems that not knowing the time complexity of some of the more common Python operations around the ADTs Python provides is hindering me at this point. What needed to be done was:
 
@@ -48,7 +50,7 @@ To mitigate this, I need to do the following:
 
 ### Final thoughts
 
-Coding the final solution was straightforward. I seem to be getting a sense that I need to do more preparation prior to attempting a solution. The goal is to get mediums within `40m`, so we need to be on top of our game on other programming aspects. 
+Coding the final solution was straightforward. I seem to be getting a sense that I need to do more preparation prior to attempting a solution. The goal is to get mediums within `40m`, so we need to be on top of our game on other programming aspects.
 
 ### Stream info
 

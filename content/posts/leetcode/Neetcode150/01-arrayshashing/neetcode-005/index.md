@@ -1,6 +1,8 @@
 ---
 title: "Neetcode 5/150 - Top K Frequent Elements"
 date: 2024-08-06T00:37:27-04:00
+categories: ["neetcode"]
+tags: ["leetcode"]
 ---
 
 This is entry `5/150` in the NeetCode150 Challenge.
@@ -18,7 +20,7 @@ Here are the things I tried:
 2. Various algos to sort dictionaries by values vs. keys ❌️
 3. Using `Counter` from `Collections` ✅️
 
-The `Counter` description states: 
+The `Counter` description states:
 
 > dict subclass for counting hashable objects
 
@@ -36,7 +38,7 @@ class Solution:
         print(occurrence)
         for x in range(k):
             ans.append(occurrence[x][0])
-        
+
         print(ans)
         return(ans)
 ```

@@ -1,20 +1,22 @@
 ---
 title: "Neetcode 12/150 - 3Sum"
 date: 2024-10-13T19:01:41-04:00
+categories: ["neetcode"]
+tags: ["leetcode"]
 ---
 
 ### Intro
 
 This is entry `12/150` in the NeetCode150 Challenge.
 
-The associated video is here: 
+The associated video is here:
 
 [Software Development | Neetcode Challenge 12/150 - 3Sum](https://youtu.be/PDfrEM1w0do)
 
 ### Status
 
 - Difficulty: Medium
-- Time restriction: ❌ 
+- Time restriction: ❌
 - Test cases: ❌
 
 
@@ -28,7 +30,7 @@ A twist on the usual Two Sum problem.
 
 ### Root Cause Analysis
 
-We failed both categories in this particular problem. We did not complete all test cases or solve within the time constraint. Terrible performance. 
+We failed both categories in this particular problem. We did not complete all test cases or solve within the time constraint. Terrible performance.
 
 After viewing the stream, the main issues we ran into were:
 
@@ -36,7 +38,7 @@ After viewing the stream, the main issues we ran into were:
 2. Too much branching
 3. Not sorting in time
 
-It is interesting that this problem does not explicitly say you can sort. Our first implementation passed about 60% of test cases, running into TLE. Then we refined it and got 308/313 test cases. We were very close. 
+It is interesting that this problem does not explicitly say you can sort. Our first implementation passed about 60% of test cases, running into TLE. Then we refined it and got 308/313 test cases. We were very close.
 
 After we sorted, I did think of a possible solution to this problem by utilizing binary search. This was a dead end. I actually streamed two sessions trying to solve this problem, but they were irrelevant. Therefore, we uploaded the first hour and conceded to this Leetcode problem.
 
@@ -56,7 +58,7 @@ A few action items after this attempt:
 
 ### Final thoughts
 
-This was the first problem I failed entirely in this section. I eventually came up with a similar algorithm to the optimal answer, but realized most of my TLEs are stemming from too many assignments and branching decisions. 
+This was the first problem I failed entirely in this section. I eventually came up with a similar algorithm to the optimal answer, but realized most of my TLEs are stemming from too many assignments and branching decisions.
 
 I had an interview with a well known company and received an OA of similar difficulty. However, this OA did NOT have a debugger. This is quite unrealistic for day to day, but if this is what people want, fuck it. I'm gonna give the people what they want.
 

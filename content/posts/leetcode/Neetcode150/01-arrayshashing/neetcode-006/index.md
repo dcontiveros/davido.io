@@ -1,6 +1,8 @@
 ---
 title: "Neetcode 6/150 - Encode and Decode Strings"
 date: 2024-08-06T14:34:09-04:00
+categories: ["neetcode"]
+tags: ["leetcode"]
 ---
 
 
@@ -37,7 +39,7 @@ class Codec:
         """Decodes a single string to a list of strings.
         """
         return s.split('\1')
-        
+
 # Your Codec object will be instantiated and called as such:
 dummy_input = ["Hello","World"]
 codec = Codec(

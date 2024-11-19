@@ -1,20 +1,28 @@
 {{ define "main" }}
 
-
 <p>
-{{ range .Pages.ByPublishDate.Reverse }}
+    Here are my most recent posts:
+    <br />
+    <br />
+    {{ $recentPosts := .Site.RegularPages | first 3 }} {{ range $recentPosts }}
+
     <a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>
     <br />
-    <span id="timestamp">
-    {{ .PublishDate.Format "January 2, 2006" }}
-    </span>
+    <span id="timestamp"> {{ .PublishDate.Format "January 2, 2006" }} </span>
     <br />
     <br />
-{{ end }}
+    {{ end }}
 </p>
 
 <p>
-{{ readFile "/static/rss.svg" | safeHTML }}
+    I also have a few posts that are part of a series:
+    <br />
+    <br />
+    <a href="/categories/neetcode">Neetcode</a>
+    <br />
+    <br />
 </p>
+
+<p>{{ readFile "/static/rss.svg" | safeHTML }}</p>
 
 {{ end }}

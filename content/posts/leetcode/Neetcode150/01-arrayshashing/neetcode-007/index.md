@@ -1,13 +1,15 @@
 ---
 title: "Neetcode 7/150 - Product of Array Except Self"
 date: 2024-08-06T17:09:01-04:00
+categories: ["neetcode"]
+tags: ["leetcode"]
 ---
 
 ### Intro
 
 This is entry `7/150` in the NeetCode150 Challenge.
 
-The associated video is here: 
+The associated video is here:
 
 [Software Development | Neetcode 7/150 - Product of Array Except Self](https://youtu.be/7iZ7JwjMGT8)
 
@@ -16,16 +18,16 @@ The associated video is here:
 The problem states:
 
 > Given an integer array `nums`, return an array answer such that `answer[i]` is equal to the product of all the elements of nums except `nums[i]`.
-> 
+>
 > The product of any prefix or suffix of `nums` is guaranteed to fit in a 32-bit integer.
-> 
+>
 > You must write an algorithm that runs in `O(n)` time and without using the division operation.
 
 ### Root Cause Analysis
 
 After watching my performance on this recording, it is clear that I am getting the naive solution fairly quickly. We need to just multiply all numbers, other than the current positional element, and store those results. Simple right?
 
-*TLE* 
+*TLE*
 
 Hmmmm ... what went wrong? I had someone in chat tell me that I needed to code `O(n)` solution but this actually didn't help, since the problem clearly states that. At this point I'm asking myself:
 

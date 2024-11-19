@@ -1,6 +1,8 @@
 ---
 title: "Neetcode 2/150 -  Valid Anagram"
 date: 2024-04-29T12:35:14-04:00
+categories: ["neetcode"]
+tags: ["leetcode"]
 ---
 
 This is entry `2/150` in the NeetCode150 Challenge.
