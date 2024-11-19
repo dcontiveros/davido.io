@@ -6,7 +6,7 @@ layout: "single"
 
 I am a technologist who is passionate about open protocols, encryption, and security.
 
-My résumé can be viewed [here](/downloads/resume-20240130.pdf).
+My résumé can be viewed [here](/downloads/SRE_textformat.pdf).
 
 My PGP key is pending. Blog post about this will be published soon.
 
