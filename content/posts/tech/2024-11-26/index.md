@@ -177,7 +177,7 @@ The overall reliance of IPoIB on the Windows side to initiate connectivity is ab
 
 Microsoft does not release any definitive documentation about SMB Direct. Most of the information I read came from the Linux Kernel documentation. All Microsoft says is that it is possible to use SMB Direct on Windows Server with an RDMA enabled interface. SMB itself was actually backwards engineered, but now it appears we have two major implementations of the SMB protocol available in the open source world, `samba` and `ksmbd`. I use both in my network setup, with no issues. Ideally, I'd like to see better interoperability, but I'm writing this in 2024, I doubt this will happen.
 
-SMB direct is also the only easy way to get an RDMA enabled share on Windows. I attempted to do `NVMe-oF first`. The Linux side is easy, but the Windows side is painful. There are no Infiniband enabled initiators. If you see one, PLEASE reach out to me. Ideally I'd like to go full on block mode remotely, but most of the initiators, including StarWind only support RoCE.
+SMB direct is also the only easy way to get an RDMA enabled share on Windows. I attempted to do `NVMe-oF` first. The Linux side is easy, but the Windows side is painful. There are no Infiniband enabled initiators. If you see one, PLEASE reach out to me. Ideally I'd like to go full on block mode remotely, but most of the initiators, including StarWind only support RoCE.
 
 ### Reasons for this post
 
