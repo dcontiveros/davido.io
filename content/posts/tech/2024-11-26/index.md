@@ -25,7 +25,7 @@ When I stream poker, I don't like to take too much of a break in between streams
 
 ### RDMA decisions
 
-There are multiple RDMA technologies that allow a low latency/high throughput connection. The two competing standards I researched were Infiniband (IB) and RDMA over Converged Ethernet (RoCE). I chose Infiniband because it is the lower latency technology. I want to be limited by disk write speed. I noticed that on eBay I could get a few ConnectX 4.0 cards (VPI specific) and `100 Gbps` cable and essentially be writing at PCIe 4.0 speed. I also only need to do this via a point to point connection. I wanted to use Thunderbolt initially, but ran into problems with unsupported configurations. IB was perfect, as it has great Linux support at a fast tranfer speed dependent on cable rating. I am also thinking about `3840x2160@60fps` speed. I want to be able to edit these type of masters eventually and future proof my setup. This makes `100Gbps (EDR rating)` extremely cost effective.
+There are multiple RDMA technologies that allow a low latency/high throughput connection. The two competing standards I researched were Infiniband (IB) and RDMA over Converged Ethernet (RoCE). I chose Infiniband because it is the lower latency technology. I want to be limited by disk write speed. I noticed that on eBay I could get a few ConnectX 4.0 cards (VPI specific) and `100 Gbps` cable and essentially be writing at PCIe 4.0 speed. I also only need to do this via a point to point connection. I wanted to use Thunderbolt initially, but ran into problems with unsupported configurations. IB was perfect, as it has great Linux support at a fast tranfer speed dependent on cable rating. I am also thinking about `3840x2160@60FPS` speed. I want to be able to edit these type of masters eventually and future proof my setup. This makes `100 Gbps (EDR rating)` extremely cost effective.
 
 ### System layout
 
@@ -42,7 +42,7 @@ This point to point connection is what transfers my ProRes Videos.
 Logically is where things get complicated. I have the following:
 
 - Virt station that runs Arch Linux for KVM/Qemu virtualization. ConnectX 4.0 card is inserted here.
-  - AlmaLinux 9.X VM that has an SRIOV Mellanox virtual card
+  - AlmaLinux 9.X VM that has an SR-IOV Mellanox virtual card
 - Windows OS on Desktop (for simplicity)
 
 What can I say? I love to get my money's worth.
@@ -54,7 +54,7 @@ I needed to meet the following requirements to get this setup working:
 Virt Station
 
 1. Mellanox card inserted into virt station and showing proper initialization.
-2. Mellanox SRIOV entries being properly passed through into AlmaLinux.
+2. Mellanox SR-IOV entries being properly passed through into AlmaLinux.
 3. Enabling IB kernel support
 4. Activating SR-IOV functionality via Subnet manager
 5. Some type of RDMA sharing solution
@@ -74,7 +74,7 @@ $ lspci | grep Mel
 11:00.0 Infiniband controller: Mellanox Technologies MT27700 Family [ConnectX-4]
 ```
 
-Now onto SR-IOV. A quick definition from RedHat Documentation:
+Now onto SR-IOV. A quick definition from Wikipedia:
 
 > The SR-IOV allows different virtual machines (VMs) in a virtual environment to share a single PCI Express hardware interface.
 >
@@ -87,7 +87,7 @@ This would allow me to insert a virtual function inside a virtual machine to sha
 
 SR-IOV functionality can be enabled via tooling or at boot inside the card's firmware. The second, however, is only possible either by using a binary driver or configuring the virtual functions at boot time. I had no idea how to do this at first. However, after a few google searches, it appears we need to do the following:
 
-1. Set up virtual functions via /proc calls
+1. Set up virtual functions via `/proc` calls
 2. Setup GUIDs to differentiate each virtual function (similar to MAC addresses)
 3. Assign these virtual functions to pci-vfio driver
 
@@ -149,7 +149,7 @@ I applied the patch provided and I was immediately presented with True:
 
 Server Name Selected Client IP Server IP  Client Interface Index Server Interface Index Client RSS Capable Client RDMA Capable
 ----------- -------- --------- ---------  ---------------------- ---------------------- ------------------ -------------------
-10.0.0.104  True     10.0.0.8  10.0.0.104 8                      1                      False              False
+10.0.0.104  True     10.0.0.8  10.0.0.104 8                      1                      False              Fals e
 10.0.0.101  True     10.0.1.2  10.0.1.1   17                     3                      False              True
 10.0.1.1    True     10.0.1.2  10.0.1.1   17                     3                      False              True
 ```
@@ -158,7 +158,7 @@ The internet is amazing sometimes.
 
 ### Limitations
 
-Besides the STEEP learning curve, the only limitation I have now is actually verifying I can write more than 10Gbps of data onto the medium. NVMe drives (consumer drives) are only fast because they have a write cache. When choosing an NVMe drive, what I need is Sustained Write Performance. Therefore, it is important to view benchmarks of drives that take the time to fill up the cache to get the true write speed. Until I upgrade my remote storage, I will not even begin to come close to the speeds RDMA provides. Guess I know what my expense will be.
+Besides the STEEP learning curve, the only limitation I have now is actually verifying I can write more than `10 Gbps` of data onto the medium. NVMe drives (consumer drives) are only fast because they have a write cache. When choosing an NVMe drive, what I need is Sustained Write Performance. Therefore, it is important to view benchmarks of drives that take the time to fill up the cache to get the true write speed. Until I upgrade my remote storage, I will not even begin to come close to the speeds RDMA provides. Guess I know what my expense will be.
 
 It is fairly amazing to write this much data and notice zero CPU load due to TCP/IP processing or even write operations.
 
@@ -177,7 +177,7 @@ The overall reliance of IPoIB on the Windows side to initiate connectivity is ab
 
 Microsoft does not release any definitive documentation about SMB Direct. Most of the information I read came from the Linux Kernel documentation. All Microsoft says is that it is possible to use SMB Direct on Windows Server with an RDMA enabled interface. SMB itself was actually backwards engineered, but now it appears we have two major implementations of the SMB protocol available in the open source world, `samba` and `ksmbd`. I use both in my network setup, with no issues. Ideally, I'd like to see better interoperability, but I'm writing this in 2024, I doubt this will happen.
 
-SMB direct is also the only easy way to get an RDMA enabled share on Windows. I attempted to do NVMe-oF first. The Linux side is easy, but the Windows side is painful. There are no Infiniband enabled initiators. If you see one, PLEASE reach out to me. Ideally I'd like to go full on block mode remotely, but most of the initiators, including StarWind only support RoCE.
+SMB direct is also the only easy way to get an RDMA enabled share on Windows. I attempted to do `NVMe-oF first`. The Linux side is easy, but the Windows side is painful. There are no Infiniband enabled initiators. If you see one, PLEASE reach out to me. Ideally I'd like to go full on block mode remotely, but most of the initiators, including StarWind only support RoCE.
 
 ### Reasons for this post
 
