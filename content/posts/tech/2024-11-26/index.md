@@ -21,7 +21,7 @@ This section could easily devolve into a black hole, but essentially the most im
 
 Again, I'm not most people.
 
-When I stream poker, I don't like to take too much of a break in between streams. I came up with the idea of utilizing a network share that could handle at most, four concurrent streams of `1920x1080@60FPS` streams in ProRes format. When you deal with hundreds of `GBs`, you start to notice that you generate the information faster than you can transfer it. I quickly realized I needed to address the interconnect issue and deal with storage requirements later on.
+When I stream poker, I don't like to take too much of a break in between streams. I came up with the idea of utilizing a network share that could handle at most, four concurrent streams of `1920x1080@60FPS` in ProRes format. When you deal with hundreds of `GBs`, you start to notice that you generate the information faster than you can transfer it. I quickly realized I needed to address the interconnect issue and deal with storage requirements later on.
 
 ### RDMA decisions
 
