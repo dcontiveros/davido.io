@@ -1,7 +1,6 @@
 ---
 title: "RDMA and ProRes Video or: How I Learned To Hate Windows Even More"
 date: 2024-11-26T13:22:25-05:00
-draft: true
 categories: ["tech"]
 tags: ["infiniband", "linux", "prores", "windows"]
 ---
