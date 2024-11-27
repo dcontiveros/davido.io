@@ -105,18 +105,18 @@ span.accent {
     font-family: "Source Code Pro", monospace;
 }
 
+/* specific element styling */
+#title_wrapper {
+    padding-bottom: 20px;
+}
+
 #post_title {
     font-family: "Archivo", sans-serif;
     font-size: 2em;
     color: #7ccb71;
 }
 
-#published_date_section {
-    padding-bottom: 5px;
-}
-
 #post_date {
-    font-size: 0.9em;
     font-family: "Source Code Pro", monospace;
 }
 
@@ -250,7 +250,6 @@ td {
 }
 
 /* CSS for GOATS */
-
 .ibsetup {
     margin-left: 100px;
     width: 35%;
